@@ -1,7 +1,7 @@
 pop_a = 9000000
 pop_b = 20000000
-tax_a = (1 + 0.003)
-tax_b = (1 + 0.0015)
+tax_a = (1 + 0.03)
+tax_b = (1 + 0.015)
 anos = 0
 
 while (pop_a <= pop_b):

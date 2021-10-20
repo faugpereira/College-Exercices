@@ -3,6 +3,7 @@ denominador = 1
 ns = 0
 
 while numerador <= 99 and denominador <= 50:
+    print('{}/{}'.format(numerador, denominador))
     s = (numerador/denominador)
     numerador = numerador + 2
     denominador = denominador + 1

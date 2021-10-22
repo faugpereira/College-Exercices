@@ -5,6 +5,6 @@ a2 = a1 + (n) * r       # útltimo termo da PA  > a fórmula é an = a1 + (n - 1
 sn = (a1 + a2) * n /2   # soma dos termos da PA
 soma = 0
 for i in range(a1, a2, r):
-    print(i)
+    print(i,'- ',end='')
     soma += + i
 print('\nA somatória dos termos da P.A. é: ',soma)

@@ -1,12 +1,10 @@
 h = 0
-numerador = 0
-denominador = 0
-soma = 0
-sub = 0
-for i in range(1, 11, 1):
-    h = i/(i**2)
-    sub = -h
-    print('{}/{}'.format(i,i**2))
-    soma += h
-    re =
-print('\nA soma dos números acima é: ',soma)
+for i in range(1,11):
+    if (i % 2 == 0):
+        i = -(i / i ** 2)
+        h = h + i
+    else:
+        i = i / i ** 2
+        h = h + i
+    print('{}/{}'.format(i, i ** 2))
+print('\nA soma dos números acima é: ',h)

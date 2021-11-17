@@ -7,4 +7,4 @@ soma = 0
 for i in range(a1, a2, r):
     print(i,'- ',end='')
     soma += + i
-print('\nA somatória dos termos da P.A. é: ',soma)
+print('\n\nA somatória dos termos da P.A. é: ',soma)
